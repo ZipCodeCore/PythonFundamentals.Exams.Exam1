@@ -49,3 +49,26 @@ Open the program called *loopty_loop.py*
 ```
 python3 -m unittest exam1.test_loopty_loop
 ```
+
+## Exercise 5
+
+Open the program called *listies.py*
+
+* Remove the line containing the pass statement and implement the functionality described in the docstring.
+* Run the unit tests to validate that the implementation passes unit tests. 
+
+```
+python3 -m unittest exam1.test_listies
+```
+
+## Exercise 6
+
+Open the program called *dictionaries.py*
+
+* Remove the line containing the pass statement and implement the functionality described in the docstring.
+* Run the unit tests to validate that the implementation passes unit tests. 
+
+```
+python3 -m unittest exam1.test_dictionaries
+```
+
