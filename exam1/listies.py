@@ -31,3 +31,9 @@ def drop_first_two(lst):
     """
     pass  # implement me
 
+def drop_last_two(lst):
+    """
+    This function takes a list and returns a list with the last two items removed.
+    """
+    pass  # implement me
+

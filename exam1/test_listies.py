@@ -26,6 +26,18 @@ class listiesTest(unittest.TestCase):
             with self.subTest(f"{tt_in} -> {expected}"):
                 self.assertEqual(expected, listies.drop_first_two(tt_in))
 
+    def test_drop_last_two(self):
+        test_cases = [
+            ([1, 2, 3], [1]),
+            ([1, 5], []),
+            (["foo", "bar", "baz"], ["foo"]),
+        ]
+
+        for tt_in, expected in test_cases:
+            with self.subTest(f"{tt_in} -> {expected}"):
+                self.assertEqual(expected, listies.drop_first_two(tt_in))
+
+
     def test_drop_mangle(self):
         test_cases = [
             ([1, 2, 3, 4], [3]),

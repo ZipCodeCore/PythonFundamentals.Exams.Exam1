@@ -53,3 +53,13 @@ class DictionariesTest(unittest.TestCase):
         for ddd, expected in test_cases:
             with self.subTest(f"{ddd} -> {expected}"):
                 self.assertEqual(expected, dictionaries.get_key_of_max_value(ddd))
+
+    def test_letterfreq(self):
+        test_cases = [
+            ('apple', {'a' : 1, 'p': 2, 'l' : 1, 'e': 1}),
+            ('mississippi', {'m' : 1, 'p': 2, 's' : 4, 'i': 4}),
+        ]
+
+        for ddd, expected in test_cases:
+            with self.subTest(f"{ddd} -> {expected}"):
+                self.assertEqual(expected, dictionaries.letterfreq(ddd))
