@@ -7,6 +7,7 @@ class CasesTest(unittest.TestCase):
 
     def test_camel_to_snake(self):
         test_cases = [
+            ('python', 'python'),
             ('zipCode', 'zip_code'),
             ('desaBurton', 'desa_burton'),
             ('dataEngineeringWithPython', 'data_engineering_with_python'),
@@ -19,6 +20,8 @@ class CasesTest(unittest.TestCase):
 
     def test_snake_to_camel(self):
         test_cases = [
+            ('zz', 'zz'),
+            ('python', 'python'),
             ('zip_code', 'zipCode'),
             ('wilmington_delaware', 'wilmingtonDelaware'),
             ('holy_smokes', 'holySmokes'),
